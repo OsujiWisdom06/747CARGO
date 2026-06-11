@@ -3,7 +3,7 @@ import '../Styles/header.css'
 import { FaGreaterThan } from 'react-icons/fa'
 import { IoMenu } from 'react-icons/io5'
 import { useNavigate } from 'react-router-dom'
-import clogo from "../../public/747logo.jpeg"
+// import clogo from "../../public/747logo.jpeg"
 
 const Header = () => {
     const nav = useNavigate()
@@ -11,7 +11,7 @@ const Header = () => {
     <div className='Header'>
         <div className='Header-wrap'>
             <div className='header-name-div'>
-                <img src={clogo} alt="clogo" />
+                <img src="" alt="logo" />
             </div>
             <div className='header-service-div'>
                 <div className='header-service-div-inner'>
