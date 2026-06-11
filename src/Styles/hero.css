@@ -1,0 +1,6 @@
+.hero-image-div{
+    width: 100%;
+    height: 85vh;
+    background-image: url("../../public/cargoheroimage.jpeg");
+    background-position: center;
+}
