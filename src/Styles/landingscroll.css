@@ -1,0 +1,227 @@
+.landing-scroll-view{
+    width: 100%;
+    height: auto;
+}
+
+.landing-scroll-1{
+    width: 100%;
+    height: 120vh;
+    /* background-color: green; */
+    display: flex;
+    justify-content: center;
+}
+
+
+.landing-scroll-1-div1{
+    width: 50%;
+    height: 100%;
+    /* background-color: blue; */
+
+    & img{
+        width: 100%;
+        height: 100%;
+    }
+}
+
+
+.landing-scroll-1-div2{
+    width: 50%;
+    height: 100%;
+    /* background-color: red; */
+}
+
+.landing-scroll-1-div2-top{
+    width: 100%;
+    height: 25%;
+    /* background-color: green; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.landing-scroll-1-div2-top-wrap{
+   width: 88%;
+   height: 100%;
+   /* background-color: blue; */
+   padding-top: 50px;
+   font-size: 24px;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.landing-scroll-1-div2-bottom{
+    width: 100%;
+    height: 75%;
+    /* background-color: orange; */
+    display: flex;
+    justify-content: center;
+}
+
+.landing-scroll-1-div2-bottom-wrap{
+     width: 88%;
+   height: 100%;
+   /* background-color: yellow; */
+   display: flex;
+   flex-direction: column;
+   gap: 18px;
+}
+
+.landing-scroll-1-div2-bottom-air-freight{
+    width: 100%;
+    height: 13%;
+    background-color: white;
+    border-radius: 15px;
+    border-bottom: 2px solid black;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 10px;
+    font-size: 23px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transform: scale(1);
+}
+
+.landing-scroll-1-div2-bottom-air-freight:hover{
+    background-color: #f47922;
+    transition: 350ms ease-in-out;
+    transform: scale(1.08);
+    color: white;
+    border: none;
+}
+
+.landing-scroll-1-div2-bottom-sea-freight{
+    width: 100%;
+    height: 13%;
+    background-color: white;
+    border-radius: 15px;
+    border-bottom: 2px solid black;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 10px;
+    font-size: 23px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transform: scale(1);
+}
+
+.landing-scroll-1-div2-bottom-sea-freight:hover{
+    background-color: #f47922;
+    transition: 350ms ease-in-out;
+    transform: scale(1.08);
+    color: white;
+    border: none;
+}
+
+
+.landing-scroll-1-div2-bottom-road-transport{
+    width: 100%;
+    height: 13%;
+    background-color: white;
+    border-radius: 15px;
+    border-bottom: 2px solid black;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 10px;
+    font-size: 23px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transform: scale(1);
+}
+
+.landing-scroll-1-div2-bottom-road-transport:hover{
+    background-color: #f47922;
+    transition: 350ms ease-in-out;
+    transform: scale(1.08);
+    color: white;
+    border: none;
+}
+
+
+.landing-scroll-1-div2-bottom-global-logistics{
+    width: 100%;
+    height: 13%;
+    background-color: white;
+    border-radius: 15px;
+    border-bottom: 2px solid black;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 10px;
+    font-size: 23px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transform: scale(1);
+}
+
+.landing-scroll-1-div2-bottom-global-logistics:hover{
+    background-color: #f47922;
+    transition: 350ms ease-in-out;
+    transform: scale(1.08);
+    color: white;
+    border: none;
+}
+
+
+.landing-scroll-1-div2-bottom-warehousing-distribution{
+    width: 100%;
+    height: 13%;
+    background-color: white;
+    border-radius: 15px;
+    border-bottom: 2px solid black;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 10px;
+    font-size: 23px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transform: scale(1);
+}
+
+.landing-scroll-1-div2-bottom-warehousing-distribution:hover{
+    background-color: #f47922;
+    transition: 350ms ease-in-out;
+    transform: scale(1.08);
+    color: white;
+    border: none;
+}
+
+
+.landing-scroll-1-div2-bottom-custom-clearance{
+    width: 100%;
+    height: 13%;
+    background-color: white;
+    border-radius: 15px;
+    border-bottom: 2px solid black;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 10px;
+    font-size: 23px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transform: scale(1);
+}
+
+.landing-scroll-1-div2-bottom-custom-clearance:hover{
+    background-color: #f47922;
+    transition: 350ms ease-in-out;
+    transform: scale(1.08);
+    color: white;
+    border: none;
+}
