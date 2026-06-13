@@ -1,6 +1,96 @@
 .hero-image-div{
     width: 100%;
     height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-image: url("../../public/cargoheroimage.jpeg");
     background-position: center;
+    /* background-size: cover; */
+}
+
+.hero-image-wrap{
+    width: 90%;
+    height: 100%;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: center;
+}
+
+.hero-image-inner-wrap1{
+    width: 50%;
+    height: 100%;
+    /* background-color: yellow; */
+}
+
+.hero-image-inner-wrap1-text-1{
+    width: 100%;
+    height: 35%;
+    /* background-color: red; */
+    color: #a9441a;
+    font-size: 27px;
+    display: flex;
+    padding-right: 50px;
+    justify-content: center;
+    align-items: end;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.hero-image-inner-wrap1-text-2{
+    width: 100%;
+    height: 15%;
+    /* background-color: maroon; */
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    color: white;
+    padding-right: 40px;
+    font-size: 27px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.hero-image-inner-wrap1-text-3{
+     width: 100%;
+    height: 20%;
+    /* background-color: yellow; */
+    color: #0768d3;
+    font-size: 27px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: end;
+}
+
+
+.hero-image-inner-wrap2{
+    width: 50%;
+    height: 100%;
+    /* background-color: green; */
+}
+
+.hero-image-inner-wrap2-text{
+    width: 100%;
+    height: 70%;
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-image-inner-wrap2-text-wrap{
+    width: 75%;
+    height: 80%;
+    /* background-color: green; */
+    font-size: 23px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+.hero-image-inner-wrap2-our-services-btn{
+    width: 100%;
+    height: 30%;
+    background-color: maroon;
 }
