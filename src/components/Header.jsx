@@ -11,7 +11,7 @@ const Header = () => {
     <div className='Header'>
         <div className='Header-wrap'>
             <div className='header-name-div'>
-                <img src="../../public/747logo.jpeg" alt="logo" />
+                <img src="../../public/logo747cargo.jpeg" alt="logo" />
             </div>
             <div className='header-service-div'>
                 <div className='header-service-div-inner'>

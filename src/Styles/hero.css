@@ -4,7 +4,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url("../../public/cargoheroimage.jpeg");
+    background-image: url("../../public/heroimage747.jpeg");
     background-position: center;
     /* background-size: cover; */
 }
@@ -86,7 +86,7 @@
     align-items: center;
     padding-top: 30px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: white;
+    color: #f47922;
 }
 
 .hero-image-inner-wrap2-our-services-btn{
