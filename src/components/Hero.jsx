@@ -25,11 +25,11 @@ const Hero = () => {
         <div className='hero-image-inner-wrap2'>
             <div className='hero-image-inner-wrap2-text'>
                 <div className='hero-image-inner-wrap2-text-wrap'>
-                    <p>747 cargo services ltd is a leading provider of logistics services, trusted by international organizations
-                         across industries for its sector expertise and sharp focus on customer 
-                         service. ISS-GF’s presence in over 60 countries means an 
-                        unmatched mix of global perspective and regional knowhow that adds
-                         that decisive logistical edge to your business.</p>
+                    <p>747 Cargo Services Ltd is a leading clearing and forwarding agency dedicated to
+                         providing efficient Air Freight, Sea Freight, and Road Transport solutions. We connect
+                          businesses to global markets through reliable logistics services, ensuring secure, cost-effective,
+                           and timely delivery of cargo. Our commitment to excellence, 
+                        customer satisfaction, and seamless freight management makes us a trusted partner for all your shipping and transportation needs.</p>
                 </div>
             </div>
             <div className='hero-image-inner-wrap2-our-services-btn'></div>
