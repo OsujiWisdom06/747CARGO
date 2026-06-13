@@ -92,5 +92,37 @@
 .hero-image-inner-wrap2-our-services-btn{
     width: 100%;
     height: 30%;
-    background-color: maroon;
+    /* background-color: maroon; */
+    display: flex;
+    justify-content: end;
+}
+
+.hero-image-inner-wrap2-our-services-btn-wrap{
+     width: 87%;
+    height: 100%;
+    /* background-color: green; */
+     padding-top: 30px;
+}
+
+.explore-btn{
+    width: 45%;
+    height: 45%;
+    background-color: #f47922;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: none;
+    color: white;
+    transform: scale(1);
+}
+
+.explore-btn:hover{
+    transition: 350ms ease-in-out;
+    transform: scale(1.08);
+    border: 4px solid #031b59;
 }

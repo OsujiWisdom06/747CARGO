@@ -1,7 +1,12 @@
 import React from 'react'
 import "../Styles/hero.css"
+import { IoArrowForwardSharp } from 'react-icons/io5'
+import { useNavigate } from 'react-router-dom'
 
 const Hero = () => {
+
+    const nav = useNavigate()
+
   return (
     <div className='hero-image-div'>
        <div className='hero-image-wrap'>
@@ -32,7 +37,11 @@ const Hero = () => {
                         customer satisfaction, and seamless freight management makes us a trusted partner for all your shipping and transportation needs.</p>
                 </div>
             </div>
-            <div className='hero-image-inner-wrap2-our-services-btn'></div>
+            <div className='hero-image-inner-wrap2-our-services-btn'>
+                <div className='hero-image-inner-wrap2-our-services-btn-wrap'>
+                    <button onClick={()=>nav("/explore-our-services")} className='explore-btn'>Explore Our Services<IoArrowForwardSharp /></button>
+                </div>
+            </div>
         </div>
        </div>
     </div>
